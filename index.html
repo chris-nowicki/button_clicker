@@ -13,15 +13,9 @@
             
             <!-- search bar -->
             <div class="search-bar-container">
-                <div class="search-bar-title"> <!--! simplify by all child in div container-->
                     <h1><img src="/assets/images/ninja.png" alt="icon of a ninja" class="ninja">Dojonary</h1>
-                </div>
-                <div class="search-bar">
                     <input type="text" placeholder="Search">
-                </div>
-                <div class="login">
-                    <button class="login-btn" onclick="LoginLogout(this)">Login</button>    
-                </div>
+                    <button class="login-btn" onclick="LoginLogout(this)">Login</button>
             </div>
             <!-- search bar end -->
 
@@ -32,68 +26,36 @@
                 <div class="left-column-wrapper">
                     
                     <!-- word definition -->
-                    <div class="word-defintion-wrapper">
                         <div class="word-definition-container">
                             <div class="word-container">
-                                <div class="word">
                                     <h1>ninja</h1>
                                     <p><i>noun</i></p>
                                     <p>Plural: <i>ninja's</i></p>
-                                </div>
-                                <div class="like-btn-container">
                                     <button class="like-btn" onclick="alert('Ninja was liked')">13 Likes</button>
-                                </div>
                             </div>
-                            <div class="definition-container">
-                                <div class="word-define">
-                                    <p>A practitioner skilled in the <a href="#">japanese</a> art of <a href="#">ninjutsu</a></p>
-                                </div>
-                            </div>
+                            <p class="word-define">A practitioner skilled in the<a href="#"> japanese</a> art of <a href="#">ninjutsu</a></p>
                         </div>
-                    </div>
                     <!-- word definition end -->
-
                     <!-- word definition -->
-                    <div class="word-defintion-wrapper">
-                        <div class="word-definition-container">
-                            <div class="word-container">
-                                <div class="word">
-                                    <h1>ninja</h1>
-                                    <p><i>noun</i></p>
-                                    <p>Plural: <i>ninja's</i></p>
-                                </div>
-                                <div class="like-btn-container">
-                                    <button class="like-btn" onclick="alert('Ninja was liked')">37 Likes</button>
-                                </div>
-                            </div>
-                            <div class="definition-container">
-                                <div class="word-define">
-                                    <p>A <a href="#">Programmer</a> who breaks down problems with <a href="#">zen</a>-like focus</p>
-                                </div>
-                            </div>
+                    <div class="word-definition-container">
+                        <div class="word-container">
+                                <h1>ninja</h1>
+                                <p><i>noun</i></p>
+                                <p>Plural: <i>ninja's</i></p>
+                                <button class="like-btn" onclick="alert('Ninja was liked')">37 Likes</button>
                         </div>
+                        <p class="word-define">A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus</p>
                     </div>
-                    <!-- word definition end -->
+                <!-- word definition end -->
                 </div>
                 <!-- left column end -->
 
-                <!-- right column wrapper -->
-                <div class="right-column-wrapper">
-                    
-                    <!-- add definition -->
-                    <div class="add-definition-wrapper">
-                        <div class="add-definition-container">
-                            <div class="phrase">
-                                <p>Dojonary is defined by <b>YOU</b></p>
-                            </div>
-                            <div class="add-defnition-btn-container">
-                                <button class="add-definition-btn" onclick="removeBTN(this)">Add Definition</button>
-                            </div>      
-                        </div>
-                    </div>
-                    <!-- add definition end -->
+                <!-- add definition -->
+                <div class="add-definition-container">
+                        <p class="phrase">Dojonary is defined by <b>YOU</b></p>
+                        <button class="add-definition-btn" onclick="removeBTN(this)">Add Definition</button>
                 </div>
-                <!-- right column end -->
+                <!-- add definition end -->
             </div>
             <!-- body wrapper end -->
         </div>
