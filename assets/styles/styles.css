@@ -124,7 +124,7 @@
     width: 100%;
 }
 
-/* * media screens adjustment */
+/* * media screens adjustments */
 /* Medium screens */
 @media all and (max-width: 800px) {
     .body-wrapper {
@@ -138,5 +138,33 @@
     .body-wrapper {
     /* On small screens, we are no longer using row direction but column */
     flex-direction: column;
+    }
+
+    .search-bar-container {
+        flex-direction: column;
+    }
+
+    .search-bar-container h1 {
+        margin-bottom: 10px;
+    }
+
+    .search-bar-container input[type=text] {
+        padding: 6px;
+        width: 75%;
+        border: none;
+        font-size: 17px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+    
+    .search-bar-container input:focus {
+        outline: none !important;
+        box-shadow: 0 0 10px #000;
+    }
+
+    .phrase {
+        width: 70%;
+        font-size: 2em;
+        margin-bottom: 20px;
     }
 }
