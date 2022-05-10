@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Button Clicker</title>
+        <link href="/assets/styles/styles.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <!-- main page wrapper -->
+        <div class="page-wrapper">
+            
+            <!-- search bar -->
+            <div class="search-bar-container">
+                <div class="search-bar-title"> <!--! simplify by all child in div container-->
+                    <h1><img src="/assets/images/ninja.png" alt="icon of a ninja" class="ninja">Dojonary</h1>
+                </div>
+                <div class="search-bar">
+                    <input type="text" placeholder="Search">
+                </div>
+                <div class="login">
+                    <button class="login-btn" onclick="LoginLogout(this)">Login</button>    
+                </div>
+            </div>
+            <!-- search bar end -->
+
+            <!-- body wrapper -->
+            <div class="body-wrapper">
+                
+                <!-- left column wrapper -->
+                <div class="left-column-wrapper">
+                    
+                    <!-- word definition -->
+                    <div class="word-defintion-wrapper">
+                        <div class="word-definition-container">
+                            <div class="word-container">
+                                <div class="word">
+                                    <h1>ninja</h1>
+                                    <p><i>noun</i></p>
+                                    <p>Plural: <i>ninja's</i></p>
+                                </div>
+                                <div class="like-btn-container">
+                                    <button class="like-btn" onclick="alert('Ninja was liked')">13 Likes</button>
+                                </div>
+                            </div>
+                            <div class="definition-container">
+                                <div class="word-define">
+                                    <p>A practitioner skilled in the <a href="#">japanese</a> art of <a href="#">ninjutsu</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- word definition end -->
+
+                    <!-- word definition -->
+                    <div class="word-defintion-wrapper">
+                        <div class="word-definition-container">
+                            <div class="word-container">
+                                <div class="word">
+                                    <h1>ninja</h1>
+                                    <p><i>noun</i></p>
+                                    <p>Plural: <i>ninja's</i></p>
+                                </div>
+                                <div class="like-btn-container">
+                                    <button class="like-btn" onclick="alert('Ninja was liked')">37 Likes</button>
+                                </div>
+                            </div>
+                            <div class="definition-container">
+                                <div class="word-define">
+                                    <p>A <a href="#">Programmer</a> who breaks down problems with <a href="#">zen</a>-like focus</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- word definition end -->
+                </div>
+                <!-- left column end -->
+
+                <!-- right column wrapper -->
+                <div class="right-column-wrapper">
+                    
+                    <!-- add definition -->
+                    <div class="add-definition-wrapper">
+                        <div class="add-definition-container">
+                            <div class="phrase">
+                                <p>Dojonary is defined by <b>YOU</b></p>
+                            </div>
+                            <div class="add-defnition-btn-container">
+                                <button class="add-definition-btn" onclick="removeBTN(this)">Add Definition</button>
+                            </div>      
+                        </div>
+                    </div>
+                    <!-- add definition end -->
+                </div>
+                <!-- right column end -->
+            </div>
+            <!-- body wrapper end -->
+        </div>
+        <!-- page wrapper end -->
+    
+    <!-- java script links -->
+    <script src="/assets/js/script.js"></script>
+
+    </body>
+</html>
